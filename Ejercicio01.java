@@ -1,6 +1,6 @@
 package com.sofka.Ejercicios;
 
-public class Ejercicio1 {
+public class Ejercicio01 {
     //Declara 2 variables numéricas (con el valor que desees), he indica cual es mayor de los dos.
     // Si son iguales indicarlo también. Ve cambiando los valores para comprobar que funciona.
 
@@ -13,7 +13,7 @@ public class Ejercicio1 {
     public static void main(String[] args) {
         int num1 = 5;
         int num2 = 10;
-        Ejercicio1 app = new Ejercicio1();
+        Ejercicio01 app = new Ejercicio01();
 
         System.out.println("num1 es mayor que num2: "+app.mayorQue(num1, num2));
         System.out.println("num1 es menor que num2: "+app.menorQue(num1, num2));

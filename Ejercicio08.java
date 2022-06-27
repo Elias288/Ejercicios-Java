@@ -2,7 +2,7 @@ package com.sofka.Ejercicios;
 
 import java.util.*;
 
-public class Ejercicio8 {
+public class Ejercicio08 {
     // Crea una aplicación por consola que nos pida un día de la semana y que nos
     // diga si es un día laboral o no. Usa un switch para ello.
 
@@ -30,7 +30,7 @@ public class Ejercicio8 {
     public static void main(String[] args) {
         String dia;
         Scanner captura = new Scanner(System.in);
-        Ejercicio8 app = new Ejercicio8();
+        Ejercicio08 app = new Ejercicio08();
 
         System.out.println("Ingresa un día: ");
         dia=captura.nextLine();

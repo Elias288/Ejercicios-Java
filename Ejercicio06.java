@@ -1,6 +1,6 @@
 package com.sofka.Ejercicios;
 
-public class Ejercicio6 {
+public class Ejercicio06 {
     // Muestra los números impares y pares del 1 al 100 (ambos incluidos). Usa un bucle for.
 
     public boolean impares (int n) {
@@ -8,7 +8,7 @@ public class Ejercicio6 {
     }
 
     public static void main(String[] args) {
-        Ejercicio6 app = new Ejercicio6();
+        Ejercicio06 app = new Ejercicio06();
 
         for (int i=1; i<=100; i++){
             if(app.impares(i)){
