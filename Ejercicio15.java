@@ -17,7 +17,7 @@ public class Ejercicio15 {
         Scanner scann = new Scanner(System.in);
 
         while (op!=8){
-            System.out.println("****** GESTION CINEMATOGRÁFICA ********");
+            System.out.println("****** GESTION CINEMATOGRaFICA ********");
             System.out.println("1-NUEVO ACTOR");
             System.out.println("2-BUSCAR ACTOR");
             System.out.println("3-ELIMINAR ACTOR");
