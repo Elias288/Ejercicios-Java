@@ -14,12 +14,25 @@ public class Ejecutable {
         electrodomesticos[6] = new Television(170, 20);
         electrodomesticos[7] = new Television();
         electrodomesticos[8] = new Television(30, false, 180, "gris", 'C', 19);
-        electrodomesticos[9] = new Television(19, false, 500, "blanco", 'F', 12);
+        electrodomesticos[9] = new Electrodomestico(120, "Negro", 'A', 8);
 
-        int precioFinalLavadoras, precioFinalTv;
+        int precioFinalElectrodomesticos=0, precioFinalLavadoras=0, precioFinalTv=0;
         for (Electrodomestico e : electrodomesticos){
             e.precioFinal();
-            System.out.println(e.toString());
+            // TODOS
+            precioFinalElectrodomesticos += e.getPrecioFinal();
+            // LAVADORAS
+            if (e instanceof Lavadora) {
+                precioFinalLavadoras += e.getPrecioFinal();
+            }
+            // TELEVISIONES
+            if (e instanceof Television) {
+                precioFinalTv += e.getPrecioFinal();
+            }
         }
+
+        System.out.println("Total precio de lavadoras: $" + precioFinalLavadoras);
+        System.out.println("Total precio de televisores: $" + precioFinalTv);
+        System.out.println("Total precio de electrodomesticos: $" + precioFinalElectrodomesticos);
     }
 }
