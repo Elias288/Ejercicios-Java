@@ -7,12 +7,12 @@ public class Ejercicio07 {
     // si no lo es lo volverá a pedir (do while), después muestra ese número por consola.
 
     public static void main(String[] args) {
-        int num = 0;
+        int num;
         Scanner captura = new Scanner(System.in);
 
-        while(num >= 0){
+        do {
             System.out.println("Ingrese un numero:");
             num = Integer.parseInt(captura.nextLine());
-        }
+        } while(num < 0);
     }
 }

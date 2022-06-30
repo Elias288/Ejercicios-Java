@@ -10,7 +10,7 @@ public class Ejecutable {
         series[2] = new Serie();
         series[3] = new Serie("Gambito de dama", "Scott Frank");
         series[4] = new Serie("(Des)encanto", 4, "Comedia", "Matt Groening");
-        
+
         videojuegos[0] = new Videojuego();
         videojuegos[1] = new Videojuego("League of Legends", 1);
         videojuegos[2] = new Videojuego("Doom", 5);
